@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.growingbiz.amjad.newregcust"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <TextView
+                android:layout_width="225dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:text="Customer Information"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="15dp"
+                android:hint="Mobile Number "
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/fname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:hint="First Name"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/lname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:hint="Last Name"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/occ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:hint="Occupation"
+                android:inputType="text" />
+
+
+            <EditText
+                android:id="@+id/in_date"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:hint="DOB" />
+
+            <Button
+                android:id="@+id/btn_date"
+                android:layout_width="75dp"
+                android:layout_height="45dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="-60dp"
+                android:layout_alignBottom="@+id/in_date"
+                android:layout_toEndOf="@+id/in_date"
+                android:layout_toRightOf="@+id/in_date"
+                android:text="SELECT DATE"
+                android:textSize="10dp"/>
+
+
+            <EditText
+                android:id="@+id/in_adate"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:hint="Anniversary Date" />
+
+            <Button
+                android:id="@+id/btn_adate"
+                android:layout_width="75dp"
+                android:layout_height="45dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="-60dp"
+                android:layout_alignBottom="@+id/in_adate"
+                android:layout_toEndOf="@+id/in_adate"
+                android:layout_toRightOf="@+id/in_adate"
+                android:text="SELECT DATE"
+                android:textSize="10dp"/>
+
+            <EditText
+                android:id="@+id/remark"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:hint="Remark(If Any)"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Submit" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

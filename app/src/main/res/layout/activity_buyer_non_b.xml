@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="in.growingbiz.amjad.BuyerNonB"
+    android:background="@color/whites">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="325dp"
+            android:layout_height="45dp"
+            android:text="Grow Your Business"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="35dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/org"
+            />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:text="Follow up with New Customer"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_marginTop="1dp"
+
+            />
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:text="Add New Customer"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="40dp"
+            />
+
+
+        <EditText
+            android:id="@+id/mobile"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="1dp"
+            android:hint="Mobile Number"
+            android:inputType="number" />
+
+        <Button
+            android:layout_width="194dp"
+            android:layout_height="60dp"
+            android:text="BUYER"
+            android:layout_marginTop="170dp"
+            android:id="@+id/buyer"
+            android:textColor="@color/whites"
+            android:background="@color/yellowo"
+            />
+        <Button
+            android:layout_width="194dp"
+            android:id="@+id/nonbuyer"
+            android:layout_height="60dp"
+            android:text="NON-BUYER"
+            android:layout_gravity="right"
+            android:textColor="@color/whites"
+            android:background="@color/yellowo"
+            android:layout_marginTop="-60dp"
+            />
+
+
+
+    </LinearLayout>
+</LinearLayout>

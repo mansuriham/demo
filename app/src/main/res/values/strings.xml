@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">amjad</string>
+    <string name="fnameerror">Enter a valid name</string>
+    <string name="lnameerror">Enter a valid name</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="mobileerror">Enter a valid mobile</string>
+    <string name="occerror">Enter a valid occupation</string>
+    <string name="dateerror">Enter a valid date</string>
+    <string name="adateerror">Enter a valid date</string>
+    <string name="title_activity_loyalty">LoyaltyActivity</string>
+
+</resources>

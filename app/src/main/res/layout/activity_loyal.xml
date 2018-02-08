@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="in.growingbiz.amjad.LoyaltyActivity">
+    <TextView
+        android:id="@+id/sale"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Sale Loyalty"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@color/lightgreen"/>
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Date Loyalty"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@color/skyblue"/>
+    <TextView
+        android:id="@+id/visit"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Visit Loyalty"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@color/yellowo"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
